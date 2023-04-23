@@ -1,7 +1,24 @@
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 900px){
     .main-container{
         display: flex;
         flex-direction: column;
+    }
+
+    .sub-container{
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .inputContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input{
+         width: 100%;
+         /* margin: 10px auto; */
     }
 }

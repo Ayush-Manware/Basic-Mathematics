@@ -10,11 +10,71 @@
     <link rel="stylesheet" href="./responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat&family=Poppins:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400&family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@100;200;500;600;700&family=Sono:wght@500&family=Tilt+Neon&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat&family=Poppins:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400&family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@100;200;500;600;700&family=Sono:wght@500&family=Tilt+Neon&family=Ysabeau:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="main-container">
+
+        <!-- Additon ++ -->
+        <div class="sub-container">
+            <h1>Addition ++</h1>
+            <!-- ValueContainers -->
+            <div class="inputContainer">
+                <input type="number" name="optionA" class="optionA" id="optionA" placeholder="Value A">
+                <input type="number" name="optionB" class="optionB" id="optionB" placeholder="Value B">
+            </div>
+            <!-- AnswerSpace -->
+            <p id="p1" class="para">* * * * *</p>
+            <!-- Submit -->
+            <button type="submit" id="btn" class="btn" onclick="sum(this.value)">Submit</button>
+        </div>
+
+        <!-- Multiplication-->
+        <div class="sub-container">
+            <h1>Multiplication **</h1>
+            <!-- ValueContainers -->
+            <div class="inputContainer">
+                <input type="number" name="optionE" class="optionE" id="optionE" placeholder="Value A">
+                <input type="number" name="optionF" class="optionF" id="optionF" placeholder="Value B">
+            </div>
+            <!-- AnswerSpace -->
+            <p id="p2" class="para">* * * * *</p>
+            <!-- Submit -->
+            <button type="submit" id="btn" class="btn" onclick="times(this.value)">Submit</button>
+        </div>
+
+        <!-- Division -->
+        <div class="sub-container">
+            <h1> Division /</h1>
+            <!-- ValueContainers -->
+            <div class="inputContainer">
+                <input type="number" name="optionG" class="optionG" id="optionH" placeholder="Value A">
+                <input type="number" name="optionH" class="optionH" id="optionI" placeholder="Value B">
+            </div>
+            <!-- AnswerSpace -->
+            <p id="p3" class="para">* * * * *</p>
+            <!-- Submit -->
+            <button type="submit" id="btn" class="btn" onclick="divide(this.value)">Submit</button>
+        </div>
+
+
+        <!-- Subtraction -->
+        <div class="sub-container">
+            <h1> Subtraction &#8722;</h1>
+            <!-- ValueContainers -->
+            <div class="inputContainer">
+                <input type="number" name="optionK" class="optionK" id="optionK" placeholder="Value A">
+                <input type="number" name="optionL" class="optionL" id="optionL" placeholder="Value B">
+            </div>
+            <!-- AnswerSpace -->
+            <p id="p4" class="para">* * * * *</p>
+            <!-- Submit -->
+            <button type="submit" id="btn" class="btn" onclick="minus(this.value)">Submit</button>
+        </div>
+
         <!-- Greater Than -->
         <div class="sub-container">
             <h1> Greater >></h1>
@@ -24,21 +84,7 @@
                 <input type="tel" name="optionB" class="optionB" id="optionB" placeholder="Value B">
             </div>
             <!-- AnswerSpace -->
-            <p id="p1" class="para">* * * * *</p>
-            <!-- Submit -->
-            <button type="submit" id="btn" class="btn" onclick="ans(this.value)">Submit</button>
-        </div>
-
-        <!-- Additon ++ -->
-        <div class="sub-container">
-            <h1>Addition ++</h1>
-            <!-- ValueContainers -->
-            <div class="inputsContainer">
-                <input type="tel" name="optionA" class="optionA" id="optionA" placeholder="Value A">
-                <input type="tel" name="optionB" class="optionB" id="optionB" placeholder="Value B">
-            </div>
-            <!-- AnswerSpace -->
-            <p id="p1" class="para">* * * * *</p>
+            <p id="p4" class="para">* * * * *</p>
             <!-- Submit -->
             <button type="submit" id="btn" class="btn" onclick="ans(this.value)">Submit</button>
         </div>
