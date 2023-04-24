@@ -18,9 +18,11 @@
 <body>
     <div class="main-container">
 
+        
         <!-- Additon ++ -->
         <div class="sub-container">
             <h1>Addition ++</h1>
+            <p class="mandetory">Only numbers are allowed.</p>
             <!-- ValueContainers -->
             <div class="inputContainer">
                 <input type="number" name="optionA" class="optionA" id="optionA" placeholder="Value A">
@@ -35,6 +37,7 @@
         <!-- Multiplication-->
         <div class="sub-container">
             <h1>Multiplication **</h1>
+            <p class="mandetory">Only numbers are allowed.</p>
             <!-- ValueContainers -->
             <div class="inputContainer">
                 <input type="number" name="optionE" class="optionE" id="optionE" placeholder="Value A">
@@ -49,6 +52,7 @@
         <!-- Division -->
         <div class="sub-container">
             <h1> Division /</h1>
+            <p class="mandetory">Only numbers are allowed.</p>
             <!-- ValueContainers -->
             <div class="inputContainer">
                 <input type="number" name="optionG" class="optionG" id="optionH" placeholder="Value A">
@@ -64,6 +68,7 @@
         <!-- Subtraction -->
         <div class="sub-container">
             <h1> Subtraction &#8722;</h1>
+            <p class="mandetory">Only numbers are allowed.</p>
             <!-- ValueContainers -->
             <div class="inputContainer">
                 <input type="number" name="optionK" class="optionK" id="optionK" placeholder="Value A">
@@ -75,18 +80,36 @@
             <button type="submit" id="btn" class="btn" onclick="minus(this.value)">Submit</button>
         </div>
 
+
         <!-- Greater Than -->
         <div class="sub-container">
             <h1> Greater >></h1>
+            <p class="mandetory">Numbers and Strings both are allowed.</p>
             <!-- ValueContainers -->
             <div class="inputContainer">
-                <input type="tel" name="optionA" class="optionA" id="optionA" placeholder="Value A">
-                <input type="tel" name="optionB" class="optionB" id="optionB" placeholder="Value B">
+                <input type="tel" name="optionN" class="optionN" id="optionN" placeholder="Value A">
+                <input type="tel" name="optionO" class="optionO" id="optionO" placeholder="Value B">
             </div>
             <!-- AnswerSpace -->
-            <p id="p4" class="para">* * * * *</p>
+            <p id="p5" class="para">* * * * *</p>
             <!-- Submit -->
-            <button type="submit" id="btn" class="btn" onclick="ans(this.value)">Submit</button>
+            <button type="submit" id="btn" class="btn" onclick="greater()">Submit</button>
+        </div>
+
+
+        <!-- Module -->
+        <div class="sub-container">
+            <h1>Remainder</h1>
+            <p class="mandetory">Only numbers are allowed.</p>
+            <!-- ValueContainers -->
+            <div class="inputContainer">
+                <input type="number" name="optionP" class="optionP" id="optionP" placeholder="Value A">
+                <input type="number" name="optionQ" class="optionQ" id="optionQ" placeholder="Value B">
+            </div>
+            <!-- AnswerSpace -->
+            <p id="p6" class="para">* * * * *</p>
+            <!-- Submit -->
+            <button type="submit" id="btn" class="btn" onclick="mod()">Submit</button>
         </div>
     </div>
     <script src="./script.js"></script>
