@@ -68,3 +68,4 @@ function mod(){
     var v = (p % q)? s = r + " " + "is the Remainder": s = "No Remainder";
     document.getElementById('p6').innerHTML = v;
 }
+
